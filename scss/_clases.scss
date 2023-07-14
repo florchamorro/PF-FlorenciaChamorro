@@ -1,0 +1,22 @@
+.clases {
+
+    .imagenClases {
+
+        .imagenConteiner {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 5px;
+
+            img {
+                display: inline-block;
+                width: 200px;
+                height: auto;
+
+            }
+
+        }
+
+
+    }
+}

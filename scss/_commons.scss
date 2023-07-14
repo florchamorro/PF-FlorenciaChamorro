@@ -1,0 +1,95 @@
+* {
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+html {
+
+    font-size: 62.5%;
+}
+
+body {
+    background-image: url(../img/logo/fondo.jpg);
+    background-repeat: repeat;
+}
+
+h1 {
+    text-align: center;
+    justify-content: center;
+}
+
+.card {
+    background-color: transparent;
+    color: $mainColor;
+    font-size: 1.3rem;
+}
+
+.card img {
+    width: auto;
+    height: 300px;
+
+}
+
+.flex-direction {
+    flex-direction: column;
+    background-color: $colorOrange;
+
+}
+
+.conteiner {
+    justify-content: center;
+    align-items: center;
+
+}
+
+.whatsapp {
+    position: fixed;
+    width: 50px;
+    height: 50px;
+    fill: $colorBlack;
+    right: 20px;
+    bottom: 20px;
+
+}
+
+
+.botonera {
+    background-color: $colorOrange;
+}
+
+p {
+    color: $mainColor;
+    @include fuente(2em, 1em, $secondaryColor);
+}
+
+main img {
+    width: 200px;
+    height: 200px;
+}
+
+.text-center {
+    margin-top: 10px;
+}
+
+
+
+@-webkit-keyframes bounce {
+    0% { transform: translateY(-5px)  }
+    50% { transform: translateY(10px) }
+    100% { transform: translateY(-5px) }
+}
+
+@keyframes bounce {
+    0% { transform: translateY(-5px)  }
+    50% { transform: translateY(10px) }
+    100% { transform: translateY(-5px) }
+}
+
+.bounce{
+    -webkit-animation: bounce 3s infinite ease-in-out;
+    -o-animation: bounce 3s infinite ease-in-out;
+    -ms-animation: bounce 3s infinite ease-in-out; 
+    -moz-animation: bounce 3s infinite ease-in-out; 
+    animation: bounce 3s infinite ease-in-out;
+}

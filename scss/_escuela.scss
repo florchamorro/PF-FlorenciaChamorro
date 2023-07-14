@@ -1,0 +1,32 @@
+.escuela{
+    .cajas {
+        display: flex;
+        justify-content: space-around;
+        gap: 15px;
+        flex-wrap: wrap;
+        padding-left: 20px;
+        margin-bottom: 20px;
+        
+    }
+    
+    .ubicacion {
+    
+        color: white;
+        padding-left: 20px;
+        
+    }
+
+    .formEscuela {
+        color: $colorBlack;
+        background-color: $colorColor;
+        opacity: 2;
+        margin-right: 20px;
+        height: 400px;
+        width: 400px;
+        padding-left: 10px;
+        margin-top: 25px;
+        
+    
+    
+    }
+}

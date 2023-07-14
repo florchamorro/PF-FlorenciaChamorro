@@ -1,13 +1,14 @@
+/*
 * {
     padding: 0%;
     margin: 0%;
     box-sizing: border-box;
 }
-
 html {
 
     font-size: 62.5%;
 }
+
 
 footer .botonera {
     background-color: rgb(240, 137, 90);
@@ -47,16 +48,14 @@ h1 {
 
 
 }
-
-footer {
+*/
+/* footer {
     display: flex;
     justify-content: center;
     align-items: center;
     padding-top: 15px;
-
-
-}
-
+} */
+/*
 .flex-direction {
     flex-direction: column;
     background-color: rgb(212, 154, 46);
@@ -97,6 +96,7 @@ footer {
 
 }
 
+
 .botonera {
     background-color: rgb(212, 154, 46);
 }
@@ -121,8 +121,7 @@ p {
     margin: 5px auto;
     height: 200px;
     padding:  50px;
-
-    
+ 
   
 }
 
@@ -134,11 +133,16 @@ p {
 
 }
 
+
 main img{
     width: 200px;
     height: 200px;
 }
-
+*/
+/* 
+.text-center {
+    margin-top: 10px;
+}
 
 @media (max-widht > 768px) {
 
@@ -175,8 +179,4 @@ main img{
 
     }
 }
-
-
-.text-center {
-    margin-top: 10px;
-}
+ */

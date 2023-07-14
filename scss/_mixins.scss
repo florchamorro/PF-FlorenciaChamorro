@@ -1,0 +1,7 @@
+//arranca el mixin  
+
+@mixin fuente($size,$heigh,$color){
+    font-size: $size;
+    line-height: $heigh;
+    color: $color;
+}
