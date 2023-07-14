@@ -1,0 +1,200 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap");
+* {
+  padding: 0%;
+  margin: 0%;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  background-image: url(../img/logo/fondo.jpg);
+  background-repeat: repeat;
+}
+
+h1 {
+  text-align: center;
+  justify-content: center;
+}
+
+.card {
+  background-color: transparent;
+  color: white;
+  font-size: 1.3rem;
+}
+
+.card img {
+  width: auto;
+  height: 300px;
+}
+
+.flex-direction {
+  flex-direction: column;
+  background-color: rgb(240, 137, 90);
+}
+
+.conteiner {
+  justify-content: center;
+  align-items: center;
+}
+
+.whatsapp {
+  position: fixed;
+  width: 50px;
+  height: 50px;
+  fill: black;
+  right: 20px;
+  bottom: 20px;
+}
+
+.botonera {
+  background-color: rgb(240, 137, 90);
+}
+
+p {
+  color: white;
+  font-size: 2em;
+  line-height: 1em;
+  color: rgb(247, 218, 218);
+}
+
+main img {
+  width: 200px;
+  height: 200px;
+}
+
+.text-center {
+  margin-top: 10px;
+}
+
+@-webkit-keyframes bounce {
+  0% {
+    transform: translateY(-5px);
+  }
+  50% {
+    transform: translateY(10px);
+  }
+  100% {
+    transform: translateY(-5px);
+  }
+}
+@keyframes bounce {
+  0% {
+    transform: translateY(-5px);
+  }
+  50% {
+    transform: translateY(10px);
+  }
+  100% {
+    transform: translateY(-5px);
+  }
+}
+.bounce {
+  -webkit-animation: bounce 3s infinite ease-in-out;
+  -o-animation: bounce 3s infinite ease-in-out;
+  -ms-animation: bounce 3s infinite ease-in-out;
+  -moz-animation: bounce 3s infinite ease-in-out;
+  animation: bounce 3s infinite ease-in-out;
+}
+
+.logo img {
+  width: 60px;
+  height: auto;
+}
+
+.encabezado img {
+  width: 100%;
+  height: 250px;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 15px;
+}
+
+footer .botonera {
+  background-color: rgb(240, 137, 90);
+}
+
+.clases .imagenClases .imagenConteiner {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 5px;
+}
+.clases .imagenClases .imagenConteiner img {
+  display: inline-block;
+  width: 200px;
+  height: auto;
+}
+
+.alquileres .caja2 {
+  padding: 20px;
+}
+.alquileres .caja2 img {
+  display: flex;
+  margin-left: 20px;
+  margin-bottom: 20px;
+}
+.alquileres .borde, .alquileres .caja2 img {
+  border: 1px solid black;
+}
+.alquileres .formEscuela {
+  color: black;
+  background-color: antiquewhite;
+  opacity: 2;
+  margin-left: 20px;
+  height: 400px;
+  width: 400px;
+  padding-left: 10px;
+  margin-top: 25px;
+  margin-bottom: 20px;
+}
+
+.escuela .cajas {
+  display: flex;
+  justify-content: space-around;
+  gap: 15px;
+  flex-wrap: wrap;
+  padding-left: 20px;
+  margin-bottom: 20px;
+}
+.escuela .ubicacion {
+  color: white;
+  padding-left: 20px;
+}
+.escuela .formEscuela {
+  color: black;
+  background-color: antiquewhite;
+  opacity: 2;
+  margin-right: 20px;
+  height: 400px;
+  width: 400px;
+  padding-left: 10px;
+  margin-top: 25px;
+}
+
+.staff .imagenStaff {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.staff .imagenStaff .imagenConteiner {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.staff .imagenStaff .imagenConteiner img {
+  display: inline-block;
+  width: 200px;
+  margin: 20px;
+  height: 200px;
+  padding: 10px 0;
+  gap: 10px;
+}
+
+/*# sourceMappingURL=main.css.map */
