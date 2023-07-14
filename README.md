@@ -1,5 +1,5 @@
 # RepoProyecto Chamorro Florencia
 
-Repo https://github.com/florchamorro/PreEntrega2ChamorroFlorencia.git
+Repo 
 
-Deployment https://florchamorro.github.io/PreEntrega2ChamorroFlorencia/
+Deployment https://florchamorro.github.io/PreEntrega3ChamorroFlorencia/
