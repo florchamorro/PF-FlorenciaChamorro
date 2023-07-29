@@ -3,9 +3,33 @@ footer {
     justify-content: center;
     align-items: center;
     padding-top: 15px;
-}
+    margin-top: 10px;
 
-footer .botonera {
-    background-color: $colorOrange;
-    
+    .botonera {
+
+        background-color: $colorPink;
+    }
+
+
+    @media (max-width: 480px) {
+
+        .textoFooter {
+            text-align: center;
+            font-size: $fsItems;
+
+            span {
+                display: block;
+
+                &.hidden {
+                    display: none;
+                }
+            }
+        }
+
+        svg{
+            width: 30px;
+            height: 30px;
+        }
+    }
+
 }

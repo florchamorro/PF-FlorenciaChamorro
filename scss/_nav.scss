@@ -1,9 +1,32 @@
 .logo img {
     width: 60px;
     height: auto;
+
 }
 
 .encabezado img {
     width: 100%;
-    height: 250px;
+    height: 170px;
+}
+
+.navItem {
+    font-size: $fsItems;
+    text-transform: uppercase;
+
+
+    &:hover {
+        transition-duration: 200ms;
+        font-weight: bold;
+    }
+
+    &.active{
+        font-weight: bold;
+    }
+}
+
+.botonBuscar {
+    margin-left: 5px;
+    margin-right: 40px;
+    padding: 5px 10px;
+    border-radius: 5px;
 }

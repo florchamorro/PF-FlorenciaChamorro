@@ -1,27 +1,55 @@
 .alquileres {
 
     .caja2 {
-        padding: 20px;
+        padding: 15px;
+        margin-bottom: 20px;
 
         img {
             display: flex;
-            margin-left: 20px;
+            margin-left: 15px;
             margin-bottom: 20px;
+            width: 350px;
+            height: 350px;
             @extend .borde;
+
+        }
+
+        p {
+            padding: 0 15px;
+        }
+
+        h2 {
+            color: $colorColor;
+            text-align: center;
+        }
+
+        .elementContainer {
+            margin-bottom: 50px;
+
+            &:nth-child(even) {
+                img {
+                    margin-right: 15px;
+                    margin-left: auto;
+                }
+
+                p {
+                    text-align: right;
+                }
+            }
         }
     }
 
-    .borde{
-      border: 1px solid $colorBlack;
+    .borde {
+        border: 1px solid $colorBlack;
     }
 
-    
+
     .formEscuela {
         color: $colorBlack;
-        background-color:$colorColor;
+        background-color: $colorColor;
         opacity: 2;
         margin-left: 20px;
-        height: 400px;
+        height: 350px;
         width: 400px;
         padding-left: 10px;
         margin-top: 25px;
@@ -29,4 +57,17 @@
 
     }
 
+    .textRight {
+        text-align: center;
+        color: $colorColor;
+
+        img {
+            justify-content: right;
+        }
+    }
+
+    .textLeft {
+        text-align: left;
+        color: $colorColor;
+    }
 }

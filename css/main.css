@@ -17,12 +17,14 @@ body {
 h1 {
   text-align: center;
   justify-content: center;
+  color: rgb(240, 90, 147);
+  font-size: 3rem;
 }
 
 .card {
   background-color: transparent;
-  color: white;
-  font-size: 1.3rem;
+  color: rgb(240, 90, 147);
+  font-size: 1rem;
 }
 
 .card img {
@@ -32,7 +34,7 @@ h1 {
 
 .flex-direction {
   flex-direction: column;
-  background-color: rgb(240, 137, 90);
+  background-color: rgb(240, 90, 147);
 }
 
 .conteiner {
@@ -42,22 +44,22 @@ h1 {
 
 .whatsapp {
   position: fixed;
-  width: 50px;
-  height: 50px;
+  width: 40px;
+  height: 40px;
   fill: black;
   right: 20px;
   bottom: 20px;
 }
 
 .botonera {
-  background-color: rgb(240, 137, 90);
+  background-color: rgb(240, 90, 147);
 }
 
 p {
-  color: white;
+  color: rgb(240, 90, 147);
   font-size: 2em;
   line-height: 1em;
-  color: rgb(247, 218, 218);
+  color: rgb(252, 244, 244);
 }
 
 main img {
@@ -67,6 +69,15 @@ main img {
 
 .text-center {
   margin-top: 10px;
+}
+
+.cardContempo {
+  height: 250px;
+  overflow-y: scroll;
+}
+
+.card-title {
+  font-size: 3rem;
 }
 
 @-webkit-keyframes bounce {
@@ -106,7 +117,26 @@ main img {
 
 .encabezado img {
   width: 100%;
-  height: 250px;
+  height: 170px;
+}
+
+.navItem {
+  font-size: 1.5rem;
+  text-transform: uppercase;
+}
+.navItem:hover {
+  transition-duration: 200ms;
+  font-weight: bold;
+}
+.navItem.active {
+  font-weight: bold;
+}
+
+.botonBuscar {
+  margin-left: 5px;
+  margin-right: 40px;
+  padding: 5px 10px;
+  border-radius: 5px;
 }
 
 footer {
@@ -114,10 +144,26 @@ footer {
   justify-content: center;
   align-items: center;
   padding-top: 15px;
+  margin-top: 10px;
 }
-
 footer .botonera {
-  background-color: rgb(240, 137, 90);
+  background-color: rgb(240, 90, 147);
+}
+@media (max-width: 480px) {
+  footer .textoFooter {
+    text-align: center;
+    font-size: 1.5rem;
+  }
+  footer .textoFooter span {
+    display: block;
+  }
+  footer .textoFooter span.hidden {
+    display: none;
+  }
+  footer svg {
+    width: 30px;
+    height: 30px;
+  }
 }
 
 .clases .imagenClases .imagenConteiner {
@@ -125,6 +171,7 @@ footer .botonera {
   flex-wrap: wrap;
   justify-content: center;
   gap: 5px;
+  padding-bottom: 15px;
 }
 .clases .imagenClases .imagenConteiner img {
   display: inline-block;
@@ -133,28 +180,64 @@ footer .botonera {
 }
 
 .alquileres .caja2 {
-  padding: 20px;
+  padding: 15px;
+  margin-bottom: 20px;
 }
 .alquileres .caja2 img {
   display: flex;
-  margin-left: 20px;
+  margin-left: 15px;
   margin-bottom: 20px;
+  width: 350px;
+  height: 350px;
+}
+.alquileres .caja2 p {
+  padding: 0 15px;
+}
+.alquileres .caja2 h2 {
+  color: rgb(250, 215, 241);
+  text-align: center;
+}
+.alquileres .caja2 .elementContainer {
+  margin-bottom: 50px;
+}
+.alquileres .caja2 .elementContainer:nth-child(even) img {
+  margin-right: 15px;
+  margin-left: auto;
+}
+.alquileres .caja2 .elementContainer:nth-child(even) p {
+  text-align: right;
 }
 .alquileres .borde, .alquileres .caja2 img {
   border: 1px solid black;
 }
 .alquileres .formEscuela {
   color: black;
-  background-color: antiquewhite;
+  background-color: rgb(250, 215, 241);
   opacity: 2;
   margin-left: 20px;
-  height: 400px;
+  height: 350px;
   width: 400px;
   padding-left: 10px;
   margin-top: 25px;
   margin-bottom: 20px;
 }
+.alquileres .textRight {
+  text-align: center;
+  color: rgb(250, 215, 241);
+}
+.alquileres .textRight img {
+  justify-content: right;
+}
+.alquileres .textLeft {
+  text-align: left;
+  color: rgb(250, 215, 241);
+}
 
+.escuela .subtitulo {
+  text-align: center;
+  color: rgb(250, 215, 241);
+  font-size: 3rem;
+}
 .escuela .cajas {
   display: flex;
   justify-content: space-around;
@@ -164,18 +247,49 @@ footer .botonera {
   margin-bottom: 20px;
 }
 .escuela .ubicacion {
-  color: white;
+  color: rgb(240, 90, 147);
   padding-left: 20px;
 }
 .escuela .formEscuela {
   color: black;
-  background-color: antiquewhite;
+  background-color: rgb(250, 215, 241);
   opacity: 2;
   margin-right: 20px;
   height: 400px;
   width: 400px;
   padding-left: 10px;
   margin-top: 25px;
+}
+.escuela p {
+  padding-left: 5px;
+}
+
+.body404 {
+  min-height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: pink;
+  padding: 35px;
+}
+.body404 img {
+  display: block;
+  width: 100%;
+  max-width: 1280px;
+  height: auto;
+}
+.body404 a {
+  font-size: 3rem;
+  line-height: 3.3rem;
+  color: rgb(252, 244, 244);
+  text-decoration: none;
+  text-transform: uppercase;
+  margin-top: 20px;
+}
+.body404 a:hover {
+  color: rgb(221, 23, 205);
 }
 
 .staff .imagenStaff {
@@ -195,6 +309,10 @@ footer .botonera {
   height: 200px;
   padding: 10px 0;
   gap: 10px;
+}
+.staff .carrouselImg {
+  margin: 0 auto;
+  margin-bottom: 100px;
 }
 
 /*# sourceMappingURL=main.css.map */

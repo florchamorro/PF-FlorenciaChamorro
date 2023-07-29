@@ -2,6 +2,7 @@
     padding: 0%;
     margin: 0%;
     box-sizing: border-box;
+    
 }
 
 html {
@@ -17,12 +18,15 @@ body {
 h1 {
     text-align: center;
     justify-content: center;
+    color: $colorPink;
+    font-size: $fsTexto;
+
 }
 
 .card {
     background-color: transparent;
-    color: $mainColor;
-    font-size: 1.3rem;
+    color: $colorPink;
+    font-size: 1rem;
 }
 
 .card img {
@@ -33,7 +37,7 @@ h1 {
 
 .flex-direction {
     flex-direction: column;
-    background-color: $colorOrange;
+    background-color: $colorPink
 
 }
 
@@ -45,8 +49,8 @@ h1 {
 
 .whatsapp {
     position: fixed;
-    width: 50px;
-    height: 50px;
+    width: 40px;
+    height: 40px;
     fill: $colorBlack;
     right: 20px;
     bottom: 20px;
@@ -55,11 +59,11 @@ h1 {
 
 
 .botonera {
-    background-color: $colorOrange;
+    background-color: $colorPink;
 }
 
 p {
-    color: $mainColor;
+    color: $colorPink;
     @include fuente(2em, 1em, $secondaryColor);
 }
 
@@ -72,6 +76,15 @@ main img {
     margin-top: 10px;
 }
 
+.cardContempo{
+    height: 250px;
+    overflow-y: scroll;
+}
+
+.card-title{
+font-size: $fsTexto;
+
+}
 
 
 @-webkit-keyframes bounce {

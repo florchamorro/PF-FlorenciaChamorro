@@ -1,4 +1,9 @@
 .escuela{
+    .subtitulo{
+        text-align: center;
+        color: $colorColor;
+        font-size: $fsTexto;
+    }
     .cajas {
         display: flex;
         justify-content: space-around;
@@ -11,7 +16,7 @@
     
     .ubicacion {
     
-        color: white;
+       color: $colorPink;
         padding-left: 20px;
         
     }
@@ -28,5 +33,8 @@
         
     
     
+    }
+    p{
+        padding-left: 5px;
     }
 }
